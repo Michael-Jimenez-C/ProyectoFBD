@@ -1,5 +1,5 @@
 -- Generado por Oracle SQL Developer Data Modeler 21.2.0.183.1957
---   en:        2022-08-06 16:35:23 COT
+--   en:        2022-08-06 16:47:31 COT
 --   sitio:      DB2/390 8
 --   tipo:      DB2/390 8
 
@@ -9,7 +9,7 @@ CREATE TABLE Asiste
     ( 
      Cliente_id_cliente VARCHAR (20) NOT NULL , 
      Evento_id_evento VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Asiste ADD CONSTRAINT Asiste_PK PRIMARY KEY 
@@ -19,13 +19,12 @@ ALTER TABLE Asiste ADD CONSTRAINT Asiste_PK PRIMARY KEY
     )
 ;
 
-
 CREATE TABLE Cargo 
     ( 
      id_cargo VARCHAR (20) NOT NULL , 
      nombre_cargo VARCHAR (20) NOT NULL , 
      descripcion_cargo VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Cargo ADD CONSTRAINT Cargo_PK PRIMARY KEY 
@@ -42,13 +41,12 @@ CREATE TABLE Cliente
      direccion_cliente VARCHAR (20) NOT NULL , 
      email_cliente VARCHAR (20) NOT NULL , 
      tipo_documento_cliente VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 CREATE UNIQUE INDEX Cliente__IDX 
     ON Cliente 
     ( 
-    ) 
-    DEFER NO 
+    )  
 ;
 
 ALTER TABLE Cliente ADD CONSTRAINT Cliente_PK PRIMARY KEY 
@@ -64,13 +62,12 @@ CREATE TABLE Contrato
      fecha_inicio_contrato DATE NOT NULL , 
      tipo_contrato VARCHAR (20) NOT NULL , 
      Cargo_id_cargo VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 CREATE UNIQUE INDEX Contrato__IDX 
     ON Contrato 
     ( 
-    ) 
-    DEFER NO 
+    )  
 ;
 
 ALTER TABLE Contrato ADD CONSTRAINT Contrato_PK PRIMARY KEY 
@@ -84,7 +81,7 @@ CREATE TABLE Departamento
      id_departamento VARCHAR (20) NOT NULL , 
      nombre_departamento VARCHAR (20) NOT NULL , 
      descripcion_departamento VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Departamento ADD CONSTRAINT Departamento_PK PRIMARY KEY 
@@ -99,7 +96,7 @@ CREATE TABLE Detalles
      cantidad_prodren INTEGER NOT NULL , 
      precio_ren DOUBLE NOT NULL , 
      Transaccion_id_transaccion VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Detalles ADD CONSTRAINT Detalles_PK PRIMARY KEY 
@@ -118,14 +115,13 @@ CREATE TABLE Empleado
      email_empleado VARCHAR (20) NOT NULL , 
      Departamento_id_departamento VARCHAR (20) NOT NULL , 
      Contrato_id_contrato VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 CREATE UNIQUE INDEX Empleado__IDX 
     ON Empleado 
     ( 
      Contrato_id_contrato ASC 
-    ) 
-    DEFER NO 
+    )  
 ;
 
 ALTER TABLE Empleado ADD CONSTRAINT Empleado_PK PRIMARY KEY 
@@ -138,7 +134,7 @@ CREATE TABLE Equipo_Estetica
     ( 
      id_producto VARCHAR (20) NOT NULL , 
      referencia_equipo VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Equipo_Estetica ADD CONSTRAINT Equipo_Estetica_PK PRIMARY KEY 
@@ -151,7 +147,7 @@ CREATE TABLE Estan
     ( 
      Detalles_id_renglon VARCHAR (20) NOT NULL , 
      Producto_id_producto VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Estan ADD CONSTRAINT Estan_PK PRIMARY KEY 
@@ -169,7 +165,7 @@ CREATE TABLE Evento
      precio_entrada_evento DOUBLE NOT NULL , 
      tipo_evento VARCHAR (20) NOT NULL , 
      descripcion_evento VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Evento ADD CONSTRAINT Evento_PK PRIMARY KEY 
@@ -182,7 +178,7 @@ CREATE TABLE Mantiene
     ( 
      Empleado_id_empleado VARCHAR (20) NOT NULL , 
      Equipo_Estetica_id_producto VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Mantiene ADD CONSTRAINT Mantiene_PK PRIMARY KEY 
@@ -197,7 +193,7 @@ CREATE TABLE Pieza_Publicitaria
      id_publicidad VARCHAR (20) NOT NULL , 
      link_publicidad VARCHAR (20) NOT NULL , 
      Evento_id_evento VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Pieza_Publicitaria ADD CONSTRAINT Pieza_Publicitaria_PK PRIMARY KEY 
@@ -213,7 +209,7 @@ CREATE TABLE Producto
      descripcion_producto VARCHAR (20) NOT NULL , 
      precio_compra_producto DOUBLE NOT NULL , 
      precio_venta_producto DOUBLE NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Producto ADD CONSTRAINT Producto_PK PRIMARY KEY 
@@ -230,7 +226,7 @@ CREATE TABLE Proveedor
      direccion_proveedor VARCHAR (20) NOT NULL , 
      email_proveedor VARCHAR (20) NOT NULL , 
      tipo_documento_proveedor VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Proveedor ADD CONSTRAINT Proveedor_PK PRIMARY KEY 
@@ -247,14 +243,13 @@ CREATE TABLE Stand
      ubicacion_stand VARCHAR (20) NOT NULL , 
      Evento_id_evento VARCHAR (20) NOT NULL , 
      Cliente_id_cliente VARCHAR (20) 
-    )  
+    ) 
 ;
 CREATE UNIQUE INDEX Stand__IDX 
     ON Stand 
     ( 
      Cliente_id_cliente ASC 
-    ) 
-    DEFER NO 
+    )  
 ;
 
 ALTER TABLE Stand ADD CONSTRAINT Stand_PK PRIMARY KEY 
@@ -272,7 +267,7 @@ CREATE TABLE Transaccion
      Cliente_id_cliente VARCHAR (20) NOT NULL , 
      Proveedor_id_proveedor VARCHAR (20) NOT NULL , 
      Empleado_id_empleado VARCHAR (20) NOT NULL 
-    )  
+    ) 
 ;
 
 ALTER TABLE Transaccion ADD CONSTRAINT Transaccion_PK PRIMARY KEY 
@@ -289,7 +284,15 @@ ALTER TABLE Asiste
     REFERENCES Cliente 
     ( 
      id_cliente
-    )
+    ) 
+    ON DELETE NO ACTION 
+;
+
+ALTER TABLE Asiste 
+    ADD CONSTRAINT Asiste_Evento_FK FOREIGN KEY 
+    ( 
+     Evento_id_evento
+    ) 
     REFERENCES Evento 
     ( 
      id_evento
