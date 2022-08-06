@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mantiene" directorySegmentName="seg_0" id="91499BDB-6547-62C7-5392-747687FD10E5">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:33:25 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1ACBF928-F770-935F-0F4D-559EA43A4331</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>61D90B07-5CEC-9D2A-44B3-2CA3D4911825</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

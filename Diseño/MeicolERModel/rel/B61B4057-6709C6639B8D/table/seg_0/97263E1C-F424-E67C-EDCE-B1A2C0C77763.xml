@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97263E1C-F424-E67C-EDCE-B1A2C0C77763" name="Cliente">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>294A6652-810D-1F1C-05D4-DF7CBE1D620A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="47B00FD8-8679-D07D-FBA4-9DF89AC5D30B">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>EA8AAF03-4133-A389-2E2B-EB185379FFF1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cliente" id="4C90CAD6-3278-A198-B041-5D0F4E1DBAA6">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>4F097C42-C141-1BC3-6CD3-12E46120DCAA</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_cliente" id="18FE665D-F381-224F-AB83-CA478303D0B1">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>975466BD-96EE-A2DA-CE7C-BA0C35F982E1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_cliente" id="871668B3-D5D0-42C6-167D-89578D29923C">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>427E2440-F8D5-A8F4-E97C-ACB2039470D4</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_cliente" id="4A612DBC-AA0B-B964-6179-17DA882E6CBA">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>6CA35C1D-D1E3-8787-35F4-44C11DD28078</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_documento_cliente" id="3D306268-C0EB-944B-6854-157BE144EE4C">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>1DFD4EA6-98CF-B563-FE0A-CD0A1BC01AD8</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stand_id_stand" id="0E9CF36F-6770-D8E1-9836-D8DCA729715A">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>B3215AAB-A241-4B62-9C60-C494FE1C1F30</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2E2EFAB-D42E-9BA1-B4FE-10A03F8F0A4B" referredColumn="E6B1A4C6-421A-2E95-8633-1444527BAEA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0130C1A9-FE48-54E0-BFAA-49EEF9DEFF68" name="Cliente_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>EB4B2F30-70BA-ECF1-CA79-1BB6550B3A32</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47B00FD8-8679-D07D-FBA4-9DF89AC5D30B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80554BBE-4E63-4FA9-CD32-ECB01F6448D6" name="Cliente__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0E9CF36F-6770-D8E1-9836-D8DCA729715A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CC9368A-C2A1-4395-2377-1C34743514C5" name="Cliente_Stand_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E9CF36F-6770-D8E1-9836-D8DCA729715A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

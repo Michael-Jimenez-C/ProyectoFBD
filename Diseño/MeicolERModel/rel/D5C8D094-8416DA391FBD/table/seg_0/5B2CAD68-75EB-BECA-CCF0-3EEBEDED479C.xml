@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B2CAD68-75EB-BECA-CCF0-3EEBEDED479C" name="Transaccion">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>D5AA75F6-6E4A-C21D-A88F-99E97567017E</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaccion" id="E612C2A5-CCB4-3F66-9C93-6B6CC8CBA3BE">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>05D390B8-F25E-D561-DF32-FADDF319868D</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_transaccion" id="9FB3A116-6709-EA41-5614-1AB388D1A49B">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>7D34E2EF-0A9A-CD4F-4AD8-71D81DBAAF11</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_total_transaccion" id="7143D5A6-27E1-4829-8173-427DCEB0EEF7">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>C37FE247-A4E4-17AE-184F-152C3250D805</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_transaccion" id="B130E295-6408-CB72-D2F7-451F3A94368C">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>9C8611FD-3E9D-95D1-7DB7-DE1C0D539D0D</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_id_cliente" id="AD7D908F-EF23-A8AA-2691-AFE31EDFDF6A">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>85C2FB24-1BD7-D002-5E76-E9719C073622</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93CD43B3-3B53-8481-ED32-3A6094A540DC" referredColumn="D90F6BB0-2B02-0E48-10DB-55752DAEFDE8"/>
+</associations>
+</Column>
+<Column name="Proveedor_id_proveedor" id="0807615D-B27F-90A7-5DE3-DA87E349D078">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>BD20E047-2644-3C39-1A59-4F8D3A475B1D</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5DF27232-4D8E-15B4-0607-64DC1427B66B" referredColumn="2D0CAD3B-FE3A-7E44-8A65-7709D392D806"/>
+</associations>
+</Column>
+<Column name="Empleado_id_empleado" id="29A6A870-3D36-0D6B-726E-518182B71D02">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>EFF41618-F950-3223-9C25-F57963152DDF</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F96B6ED7-7334-514A-0F06-431C50066845" referredColumn="126D549A-E8A9-5305-A74F-9C42D11DF359"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D6CE085-12D1-14F6-0F35-C3055D763A10" name="Transaccion_PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>8C5552CB-625D-E189-E1E5-6058372EC791</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E612C2A5-CCB4-3F66-9C93-6B6CC8CBA3BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="411A603F-4058-FC21-7145-FEA9C99F18C4" name="Transaccion_Empleado_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>0C03C365-B0ED-E81E-07FE-E25E721C013A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29A6A870-3D36-0D6B-726E-518182B71D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0273F54E-B1A6-E497-D028-2B8DC8979A40" name="Transaccion_Cliente_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>28ED2335-800D-FB8A-AF77-F969A230A003</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD7D908F-EF23-A8AA-2691-AFE31EDFDF6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6AB4A38-D6DF-D844-97A4-DD401DA591CC" name="Transaccion_Proveedor_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>EB15E450-33D9-9B8B-B0F8-2068C412DEB2</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0807615D-B27F-90A7-5DE3-DA87E349D078"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

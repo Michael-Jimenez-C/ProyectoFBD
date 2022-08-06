@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="48A4AC11-B719-30D6-91B9-361A1B073029" mainViewID="9EE2DAB6-B02B-0D40-C96E-F3D937E17330">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 13:06:59 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

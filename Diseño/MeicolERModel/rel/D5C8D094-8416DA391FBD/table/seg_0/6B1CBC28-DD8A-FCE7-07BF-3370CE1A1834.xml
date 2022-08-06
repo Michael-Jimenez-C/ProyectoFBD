@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B1CBC28-DD8A-FCE7-07BF-3370CE1A1834" name="Empleado">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>1ACBF928-F770-935F-0F4D-559EA43A4331</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="126D549A-E8A9-5305-A74F-9C42D11DF359">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>2DBD7213-DE0D-6786-1831-1D45F59DC094</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_empleado" id="E30A86DB-DEA6-EF3D-7418-B0D709BD04D3">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>DCBFC800-A288-D71F-77E6-DC720FE74C1F</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_documento_empleado" id="1F97A1B2-AF6F-3D35-E6B7-C9E9CE89B711">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>7263EE91-9FB9-C22D-8A09-790802D09D6B</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono_empleado" id="473494BF-D840-1316-9B14-58AA75DC5500">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>EDD154B1-DC6C-DF99-3463-C39022D33E9D</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_empleado" id="CDB56985-A9AE-9ADC-1658-A988376C935E">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>5D9FCC12-9B96-B47B-B0AE-EC6278BFFC3D</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_empleado" id="DDA680D7-0674-D189-03DF-CA68FBF43479">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>927344E2-9D4D-FA04-7541-4FD9484D2D4B</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_id_departamento" id="7FF1601E-12E5-B52A-64DA-F2E4F4E803E8">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>DFF2C918-D300-A9A3-972C-8BCEEDEDACC9</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3876911-366A-A78D-3C23-A8D0C1D4B4BA" referredColumn="4E41E60D-6552-0398-624E-20934EBF57D4"/>
+</associations>
+</Column>
+<Column name="Contrato_id_contrato" id="8295C57D-C1AB-CF59-942E-FD1270F884AA">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>4EEF4514-A539-5300-BA5C-ABD43FC614ED</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2829352A-05D2-A64F-80F5-A1A97D2435F3" referredColumn="8F4DFD2D-0168-B952-B30C-6BC3CD758C06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84D0BF40-500E-F52D-C7AE-091C79BD52D5" name="Empleado_PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>81992B26-57FB-A656-C0E0-2478FE8E4F92</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="126D549A-E8A9-5305-A74F-9C42D11DF359"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D03947A-0A1A-B21F-4FE9-1460760FA82D" name="Empleado__IDX">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>607B4413-DDEB-D482-EE0A-9B7869CDC1EC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8295C57D-C1AB-CF59-942E-FD1270F884AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B9D6C7C-B9F9-CCF3-BC60-AA638ED5F000" name="Empleado_Contrato_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>607B4413-DDEB-D482-EE0A-9B7869CDC1EC</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8295C57D-C1AB-CF59-942E-FD1270F884AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A03A44CA-80B7-BFA9-D95B-76C2D0DADCA5" name="Empleado_Departamento_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>5B90F1AA-AD79-A49E-0B4A-41469F747831</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FF1601E-12E5-B52A-64DA-F2E4F4E803E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

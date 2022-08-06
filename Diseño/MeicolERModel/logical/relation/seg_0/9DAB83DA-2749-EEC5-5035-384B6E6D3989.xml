@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asigna" directorySegmentName="seg_0" id="9DAB83DA-2749-EEC5-5035-384B6E6D3989">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:49:45 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<sourcePk>F8F010A1-5E4A-49F4-B920-A69AAC2FC4F4</sourcePk>
+<targetPk>07EE75D1-6A6D-BA2B-D6CE-376A0CCEB355</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DECAB2FC-2426-B48B-89ED-9639DCB11949</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C5999E76-F6E9-B879-C782-FDEFC0EC46B9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

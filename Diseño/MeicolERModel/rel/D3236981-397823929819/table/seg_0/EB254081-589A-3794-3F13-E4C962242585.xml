@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB254081-589A-3794-3F13-E4C962242585" name="Pieza_Publicitaria">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>29BDDB17-230B-0047-C547-B8E7E45749AB</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_publicidad" id="543654B4-5623-248B-EF72-F4C2596AC01E">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>BB62DC92-CD51-19D2-7FFC-2F738642F920</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="link_publicidad" id="1C8EBBDF-20FF-66F2-6FF8-383E3826696F">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>BCFD3088-2B99-32E1-B460-BD6B4BC8D1CD</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id_evento" id="A8E394DB-A0D6-4F61-F2D6-887ADA771B2C">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>3E36C3FD-CB8D-72E8-ED2B-FEF8D81FC40A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C45FC691-8F77-5117-1BB0-332F97C9725D" referredColumn="2917F90F-39D5-8C98-498D-714987EBA662"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E905FC95-6E30-6476-69F8-64128C8D805F" name="Pieza_Publicitaria_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>E6BEA4C3-B5D8-A861-B041-D3A131E6C75F</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="543654B4-5623-248B-EF72-F4C2596AC01E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="011CF7B1-F19B-E948-EA1A-614DCFF906AE" name="Pieza_Publicitaria_Evento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>6264034D-5CE2-B9AF-765B-04DA06D966B3</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8E394DB-A0D6-4F61-F2D6-887ADA771B2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

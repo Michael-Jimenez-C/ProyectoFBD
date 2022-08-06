@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="294A6652-810D-1F1C-05D4-DF7CBE1D620A" name="Cliente">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:04:22 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="EA8AAF03-4133-A389-2E2B-EB185379FFF1">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:05:06 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_cliente" id="4F097C42-C141-1BC3-6CD3-12E46120DCAA">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:06:22 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_cliente" id="975466BD-96EE-A2DA-CE7C-BA0C35F982E1">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:08:13 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_cliente" id="427E2440-F8D5-A8F4-E97C-ACB2039470D4">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:08:51 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_cliente" id="6CA35C1D-D1E3-8787-35F4-44C11DD28078">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:09:37 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento_cliente" id="1DFD4EA6-98CF-B563-FE0A-CD0A1BC01AD8">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:27:49 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_stand" id="B3215AAB-A241-4B62-9C60-C494FE1C1F30">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:12:01 UTC</createdTime>
+<generatorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<referedAttribute>1B168C61-EB4D-9611-BE91-2F78C8DA4C7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB4B2F30-70BA-ECF1-CA79-1BB6550B3A32" name="Persona PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:06:11 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EA8AAF03-4133-A389-2E2B-EB185379FFF1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

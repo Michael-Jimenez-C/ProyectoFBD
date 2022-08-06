@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DABBCA60-8362-6867-716E-2B288D40789E" name="Proveedor">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:35:59 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_proveedor" id="ECF5D859-5F39-77E3-EC53-BA471B5B424F">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:36:46 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_proveedor" id="1CDC76D0-22DF-588B-4AF4-C0D3A8EFC6CF">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:38:13 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_proveedor" id="750CDDA2-D068-0659-17B3-7BB7F1516034">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:38:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_proveedor" id="B9CD577A-DEE8-99DE-3332-9C1E3BA0F742">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:38:59 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_proveedor" id="3BF2B5F7-0D49-E3E1-BDE8-24D4B8626FF8">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:39:38 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento_proveedor" id="58E70034-91D1-54B0-5DCA-5036C53F248C">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:42:03 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F654B37A-2292-78C1-CFEE-8B2505557071" name="Proveedor PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 23:37:46 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECF5D859-5F39-77E3-EC53-BA471B5B424F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

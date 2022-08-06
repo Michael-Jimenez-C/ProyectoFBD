@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA926044-01F2-C24B-309F-DF9ADC98A85F" name="Stand">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>A80F8F97-8CC7-1BB0-944A-785C7906CB34</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_stand" id="E6B1A4C6-421A-2E95-8633-1444527BAEA5">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>1B168C61-EB4D-9611-BE91-2F78C8DA4C7C</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_stand" id="53AD57A6-D642-8234-FBB4-8B7B016F2539">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>335F5561-9427-9F25-3B20-4447996CCCB0</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamaño_stand" id="F2334FA3-F981-39F8-522E-1CB7C839ADAE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>E5762788-BC2C-E224-4202-5DC4D33F6243</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion_stand" id="DEF0B299-9352-14E1-5801-9B5AA400E9C8">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>58CA6C5A-2300-73AD-0770-F9B71952CC16</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id_evento" id="B4FFE5CA-3735-EDAB-2938-2772FA15A416">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>F46B165A-3EF1-56B3-A84A-8558B3080C9E</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B3F2E44B-4AB7-9597-16C8-857D1D27127D" referredColumn="B932AD62-C84E-81EB-8925-B49161A63AA3"/>
+</associations>
+</Column>
+<Column name="Cliente_id_cliente" id="3F74A29C-1CF3-E272-F9CF-A39C41E41DCC">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>0081A3D0-EC1C-A2A9-A56A-E97506D7016B</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="049E567F-A44F-DF01-64C8-9A3F749050AE" referredColumn="47B00FD8-8679-D07D-FBA4-9DF89AC5D30B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EA89675-127E-6C49-0B52-76963AD7FB37" name="Stand_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>4B9103C8-9B33-F419-05DC-84A84CC7066A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6B1A4C6-421A-2E95-8633-1444527BAEA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2830DEC6-F798-907C-A182-0D72B47CA15E" name="Stand__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3F74A29C-1CF3-E272-F9CF-A39C41E41DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="365AB631-2934-9AFF-2D74-1E6105782E91" name="Stand_Cliente_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F74A29C-1CF3-E272-F9CF-A39C41E41DCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1044F928-87CC-B606-9C2B-48205EE583B7" name="Stand_Evento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-02 22:00:06 UTC</createdTime>
+<generatorID>8CAFFD36-D8A4-AD1C-F2F3-C1B601FCB23E</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4FFE5CA-3735-EDAB-2938-2772FA15A416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

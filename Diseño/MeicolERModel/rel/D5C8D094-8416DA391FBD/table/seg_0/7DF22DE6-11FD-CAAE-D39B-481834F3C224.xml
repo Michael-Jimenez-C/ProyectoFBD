@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7DF22DE6-11FD-CAAE-D39B-481834F3C224" name="Asiste">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_id_cliente" id="F0C68250-27BF-65B7-6BCC-B71238F1BFCC">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E97E1CA9-FF37-4A47-35D8-47438657EE05" referredColumn="D90F6BB0-2B02-0E48-10DB-55752DAEFDE8"/>
+</associations>
+</Column>
+<Column name="Evento_id_evento" id="E81D3FCF-7EE6-4C4C-F4F1-33F97B94259F">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="941DDAC3-D22C-E38C-4AD0-F452949A6720" referredColumn="7A5B8205-EBE7-2A18-6259-E3BCB64B69AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B979D90F-657F-DA0F-64D8-9142D5DE910C" name="Asiste_PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C68250-27BF-65B7-6BCC-B71238F1BFCC"/>
+<colUsage columnID="E81D3FCF-7EE6-4C4C-F4F1-33F97B94259F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8798AAD7-C263-B369-8BBA-F4A966F66E14" name="Asiste_Cliente_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>54AC75AC-C098-3A2B-20C4-6FE1FDDEE600</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0C68250-27BF-65B7-6BCC-B71238F1BFCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E39EC59C-9925-1074-4D4F-F5C4A06A60C5" name="Asiste_Evento_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>54AC75AC-C098-3A2B-20C4-6FE1FDDEE600</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E81D3FCF-7EE6-4C4C-F4F1-33F97B94259F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

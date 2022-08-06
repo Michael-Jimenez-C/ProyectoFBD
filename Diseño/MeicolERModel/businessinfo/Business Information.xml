@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="D11A3E52-B060-C21E-B96D-970FE10AD28C">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 13:06:59 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MeicolERModel" id="788870FA-CCFF-9558-EEC4-1F93970633C9" version="3.5">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 13:06:59 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>788870FA-CCFF-9558-EEC4-1F93970633C9</designId>
+</OSDM_Design>

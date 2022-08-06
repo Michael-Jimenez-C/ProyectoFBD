@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C452EA83-A6AB-E02F-835B-A201E4B50433" name="Mantiene">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empleado_id_empleado" id="3E87633E-66BF-00BD-67ED-4C4FBA181F81">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7AD9DBBA-84E9-3F9F-7306-1273208C161E" referredColumn="126D549A-E8A9-5305-A74F-9C42D11DF359"/>
+</associations>
+</Column>
+<Column name="Equipo_Estetica_id_producto" id="180E6022-0B3A-0F17-D29F-9E194253D49E">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A719608-AA9A-D55F-1E22-E0527EB7E73F" referredColumn="0926B445-30A2-A87B-43A0-CEA82C150EC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32C8C9D9-9203-3CF2-E245-E92454C1D127" name="Mantiene_PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E87633E-66BF-00BD-67ED-4C4FBA181F81"/>
+<colUsage columnID="180E6022-0B3A-0F17-D29F-9E194253D49E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8862E62D-F69B-7932-D842-51A0C44841E7" name="Mantiene_Empleado_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>91499BDB-6547-62C7-5392-747687FD10E5</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E87633E-66BF-00BD-67ED-4C4FBA181F81"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4C7655E-FA0D-8D8E-8AB4-48BFEAFC974A" name="Mantiene_Equipo_Estetica_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>91499BDB-6547-62C7-5392-747687FD10E5</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="180E6022-0B3A-0F17-D29F-9E194253D49E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

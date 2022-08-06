@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="136538BB-2824-C3AE-339D-0946E073625B" name="Producto">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>8A54A9AC-5C3F-83FB-124E-2F1A65D7A403</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="FB54D8BF-B2DD-375C-A5EC-F120E25CC779">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>25BC5667-7C42-56AF-84D3-286E11282899</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_producto" id="79DE7714-4E4C-B096-AACA-EA639B6BF6CE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>925744BE-97D6-A437-7347-5E499B635E87</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_producto" id="8E06B112-CE4B-2996-58A4-4910134791BE">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>D05C7FBE-0955-9EF6-1055-6ECAEDAEFE69</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_compra_producto" id="498B1313-9EB6-7726-23ED-6AD2544E5823">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>DB4EFF67-F673-4F10-59DF-4E532AC6E962</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_venta_producto" id="33A7D543-7BA3-E4DD-309C-DEF397906AC0">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>948550DE-53CB-B3A4-2D04-6AFA5362602E</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Detalles_id_renglon" id="AFC2F71A-085F-2486-88BE-FE958F2264E7">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>2BE691FE-E2C7-EAC4-5707-6B9DA2C44D2A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DCB12D2-0434-60D4-E008-FF2A7767B203" referredColumn="0EBB29AC-A999-F1DF-27B0-852535CFAEC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A65FF6D-751E-74D9-9AD2-E159329D94A3" name="Producto_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>05B2A7E4-BCF9-13AC-43AE-2C12119FA701</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB54D8BF-B2DD-375C-A5EC-F120E25CC779"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="972268FB-6AB3-D87E-1B51-0B87C2247E11" name="Producto_Detalles_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 18:46:28 UTC</createdTime>
+<generatorID>4CF329EC-23D7-3BBC-5E1D-FCF1F6153F8F</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFC2F71A-085F-2486-88BE-FE958F2264E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

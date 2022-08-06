@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Tiene" directorySegmentName="seg_0" id="45875B7C-AEBC-5ECC-7BB8-F6D2C24E7DBC">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:42:28 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+</engineerTo>
+<sourcePk>8C5552CB-625D-E189-E1E5-6058372EC791</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5AA75F6-6E4A-C21D-A88F-99E97567017E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5DA1F33C-D154-D421-9F95-57E6D66D9BBC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

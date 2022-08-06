@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Firmo" directorySegmentName="seg_0" id="607B4413-DDEB-D482-EE0A-9B7869CDC1EC">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:49:13 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+</engineerTo>
+<sourcePk>81992B26-57FB-A656-C0E0-2478FE8E4F92</sourcePk>
+<targetPk>F8F010A1-5E4A-49F4-B920-A69AAC2FC4F4</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1ACBF928-F770-935F-0F4D-559EA43A4331</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DECAB2FC-2426-B48B-89ED-9639DCB11949</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

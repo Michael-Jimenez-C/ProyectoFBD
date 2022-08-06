@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1ACBF928-F770-935F-0F4D-559EA43A4331" name="Empleado">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:56:28 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empleado" id="2DBD7213-DE0D-6786-1831-1D45F59DC094">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:56:45 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_empleado" id="DCBFC800-A288-D71F-77E6-DC720FE74C1F">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:57:02 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento_empleado" id="7263EE91-9FB9-C22D-8A09-790802D09D6B">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:57:44 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono_empleado" id="EDD154B1-DC6C-DF99-3463-C39022D33E9D">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:09:57 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion_empleado" id="5D9FCC12-9B96-B47B-B0AE-EC6278BFFC3D">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:10:26 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_empleado" id="927344E2-9D4D-FA04-7541-4FD9484D2D4B">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:10:46 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_departamento" id="DFF2C918-D300-A9A3-972C-8BCEEDEDACC9">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:54:14 UTC</createdTime>
+<generatorID>5B90F1AA-AD79-A49E-0B4A-41469F747831</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<referedAttribute>65283491-5D88-5EE7-01EB-5065D168C19E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_contrato" id="4EEF4514-A539-5300-BA5C-ABD43FC614ED">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:57:03 UTC</createdTime>
+<generatorID>607B4413-DDEB-D482-EE0A-9B7869CDC1EC</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<referedAttribute>A4ACE67B-5E06-342E-FFD1-94E2BECC7B7C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="81992B26-57FB-A656-C0E0-2478FE8E4F92" name="Empleado PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:57:00 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2DBD7213-DE0D-6786-1831-1D45F59DC094</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

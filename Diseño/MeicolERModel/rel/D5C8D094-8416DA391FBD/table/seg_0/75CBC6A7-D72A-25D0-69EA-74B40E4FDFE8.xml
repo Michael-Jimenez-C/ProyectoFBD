@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75CBC6A7-D72A-25D0-69EA-74B40E4FDFE8" name="Contrato">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>DECAB2FC-2426-B48B-89ED-9639DCB11949</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_contrato" id="8F4DFD2D-0168-B952-B30C-6BC3CD758C06">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>A4ACE67B-5E06-342E-FFD1-94E2BECC7B7C</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="salario_contrato" id="30C59F78-1DA9-4AEA-FCF1-5ACD4E2FE14E">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>8392C82A-B7ED-226E-3794-EE85AFD89BFC</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio_contrato" id="DA6AD0F4-9B6A-615C-6DA7-81CBD343B890">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>BA38227E-AC6A-A405-92FA-F33552F53690</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_contrato" id="C886CB15-A861-14F2-BC50-6427ED7E07BA">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>80064486-6E73-35E7-E81F-364E672119D1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_id_empleado" id="168C1B50-F1DE-60CE-67DE-B61B9AAA5C4E">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>4F55FC6D-9774-D44B-97D5-C44B5C2F42CD</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA39739F-8178-A86D-3222-C4CB184EFDB3" referredColumn="126D549A-E8A9-5305-A74F-9C42D11DF359"/>
+</associations>
+</Column>
+<Column name="Cargo_id_cargo" id="0D23FB0A-2709-B9A4-E920-976489A19A7C">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>A12C7081-55E3-20A4-559E-2FF2167C63B0</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0FE2AC5F-E5F1-91E5-309C-CBEB1E5A4E56" referredColumn="4B69A2A5-DEF0-5B03-F9AE-8DA0996F56E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE4B0EC0-DDDD-E5D2-F922-B73CAA42B749" name="Contrato_PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>F8F010A1-5E4A-49F4-B920-A69AAC2FC4F4</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F4DFD2D-0168-B952-B30C-6BC3CD758C06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEFA98B4-3DCF-261B-2F46-272AE3E02090" name="Contrato__IDX">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9DAB83DA-2749-EEC5-5035-384B6E6D3989</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0D23FB0A-2709-B9A4-E920-976489A19A7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EE06E1C-ED69-AB53-653B-6975B7DE2824" name="Contrato__IDXv1">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>607B4413-DDEB-D482-EE0A-9B7869CDC1EC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="168C1B50-F1DE-60CE-67DE-B61B9AAA5C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F442AD23-52EB-3746-888C-C88614B562F3" name="Contrato_Cargo_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>9DAB83DA-2749-EEC5-5035-384B6E6D3989</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D23FB0A-2709-B9A4-E920-976489A19A7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82257C93-0DCB-EC6C-D9A4-A83B9B1507EB" name="Contrato_Empleado_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>607B4413-DDEB-D482-EE0A-9B7869CDC1EC</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="168C1B50-F1DE-60CE-67DE-B61B9AAA5C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A54A9AC-5C3F-83FB-124E-2F1A65D7A403" name="Producto">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:50:55 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="25BC5667-7C42-56AF-84D3-286E11282899">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:51:05 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_producto" id="925744BE-97D6-A437-7347-5E499B635E87">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:51:23 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion_producto" id="D05C7FBE-0955-9EF6-1055-6ECAEDAEFE69">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:52:42 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_compra_producto" id="DB4EFF67-F673-4F10-59DF-4E532AC6E962">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:53:11 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_venta_producto" id="948550DE-53CB-B3A4-2D04-6AFA5362602E">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:03:56 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_renglon" id="2BE691FE-E2C7-EAC4-5707-6B9DA2C44D2A">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:38:47 UTC</createdTime>
+<generatorID>4CF329EC-23D7-3BBC-5E1D-FCF1F6153F8F</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<referedAttribute>B8654413-C958-9FA4-CB40-A4C8EBC51F2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05B2A7E4-BCF9-13AC-43AE-2C12119FA701" name="Producto PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 02:52:40 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+<item key="D3236981-1C01-2AF7-EAFD-397823929819" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25BC5667-7C42-56AF-84D3-286E11282899</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

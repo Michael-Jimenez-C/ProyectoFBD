@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Facilito" directorySegmentName="seg_0" id="0C03C365-B0ED-E81E-07FE-E25E721C013A">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:31:22 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+</engineerTo>
+<sourcePk>81992B26-57FB-A656-C0E0-2478FE8E4F92</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1ACBF928-F770-935F-0F4D-559EA43A4331</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5AA75F6-6E4A-C21D-A88F-99E97567017E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5D97B022-F1F6-8308-4C23-C478EA3D4A5C" containerWithKeyObject="C0C196AA-0C29-5A96-2495-FF9EB055F384" localFKIndex="F9840006-2D04-D6B6-FCA9-913173ED6DB3" name="Cliente_Stand_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<referredTableLongName>Stand</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FCB322BF-B252-A4AB-4004-0B2B37A8BECF</referredTableID>
+<keyObject>5278C699-5F38-0154-7DD2-A6688A44729A</keyObject>
+<referredKeyID>5278C699-5F38-0154-7DD2-A6688A44729A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_stand</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

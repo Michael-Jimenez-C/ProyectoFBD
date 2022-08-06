@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9E062468-FFF1-6ABC-AB72-BAC2BBC98023">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-26 13:06:59 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

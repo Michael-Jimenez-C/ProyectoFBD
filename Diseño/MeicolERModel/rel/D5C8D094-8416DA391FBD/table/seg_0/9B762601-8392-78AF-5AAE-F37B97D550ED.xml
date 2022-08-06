@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B762601-8392-78AF-5AAE-F37B97D550ED" name="Cargo">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>C5999E76-F6E9-B879-C782-FDEFC0EC46B9</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="4B69A2A5-DEF0-5B03-F9AE-8DA0996F56E8">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>302D403D-EC13-B93A-D9D5-5067A1BD3124</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cargo" id="7F5EB047-16F2-38C3-E514-A7AC7EC3C3E0">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>65DD224D-CFFF-AAD6-6D95-52F5BC7709C0</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_cargo" id="4698F5C0-881C-1AA8-B057-C22EBD5DB6E8">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>2A8181BC-D2FE-F1D3-EFFB-7A2F3264C0F1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrato_id_contrato" id="5AB0AF95-56F7-1A52-B769-CD57D0986B07">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>D235FB90-3A8B-25D6-7B83-99E8CE02885B</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93191AE7-DFCC-F2F8-C564-6FB63238236A" referredColumn="8F4DFD2D-0168-B952-B30C-6BC3CD758C06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A923868F-4CDB-C5E1-DE1A-55A93F162F72" name="Cargo_PK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>07EE75D1-6A6D-BA2B-D6CE-376A0CCEB355</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B69A2A5-DEF0-5B03-F9AE-8DA0996F56E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="114A3250-A081-D096-0FA0-A575012A6090" name="Cargo__IDX">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9DAB83DA-2749-EEC5-5035-384B6E6D3989</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5AB0AF95-56F7-1A52-B769-CD57D0986B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="904FFFB6-E600-0F1F-6064-D0FF21EDB635" name="Cargo_Contrato_FK">
+<createdBy>Andre</createdBy>
+<createdTime>2022-08-01 03:51:33 UTC</createdTime>
+<generatorID>9DAB83DA-2749-EEC5-5035-384B6E6D3989</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AB0AF95-56F7-1A52-B769-CD57D0986B07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

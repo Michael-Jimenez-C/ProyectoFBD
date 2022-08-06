@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pertenece" directorySegmentName="seg_0" id="5B90F1AA-AD79-A49E-0B4A-41469F747831">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:53:45 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+</engineerTo>
+<targetPk>302EE467-D762-A0AB-EDBE-F1F65806E469</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>1ACBF928-F770-935F-0F4D-559EA43A4331</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9CA5AC7B-D55C-7443-1FA5-19641EEA9CD1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

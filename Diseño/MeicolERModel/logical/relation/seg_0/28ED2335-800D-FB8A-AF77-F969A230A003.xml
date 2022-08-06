@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Realiza" directorySegmentName="seg_0" id="28ED2335-800D-FB8A-AF77-F969A230A003">
+<createdBy>Andre</createdBy>
+<createdTime>2022-07-31 22:46:16 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<engineerTo>
+<item key="D5C8D094-F67F-14F9-FD37-8416DA391FBD" value="true"/>
+</engineerTo>
+<sourcePk>EB4B2F30-70BA-ECF1-CA79-1BB6550B3A32</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>294A6652-810D-1F1C-05D4-DF7CBE1D620A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5AA75F6-6E4A-C21D-A88F-99E97567017E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
