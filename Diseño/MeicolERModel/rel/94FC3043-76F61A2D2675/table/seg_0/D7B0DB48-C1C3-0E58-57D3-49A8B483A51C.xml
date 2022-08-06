@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7B0DB48-C1C3-0E58-57D3-49A8B483A51C" name="Stand">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>A80F8F97-8CC7-1BB0-944A-785C7906CB34</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_stand" id="5BE09B3F-2BC0-FC21-ED89-005F04205238">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>1B168C61-EB4D-9611-BE91-2F78C8DA4C7C</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_stand" id="76219A43-BE0B-9888-6F4D-CC76AFF2BEFF">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>335F5561-9427-9F25-3B20-4447996CCCB0</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tamaño_stand" id="A5462CE2-84F3-7FF6-3C1E-AEE97A14BF56">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>E5762788-BC2C-E224-4202-5DC4D33F6243</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion_stand" id="46C18C3B-43BD-2FA5-E197-1BA256A676B1">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>58CA6C5A-2300-73AD-0770-F9B71952CC16</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Evento_id_evento" id="F48DEC4D-4646-C48D-5038-7E98A5F89FE4">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>F46B165A-3EF1-56B3-A84A-8558B3080C9E</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F05532ED-18CF-C806-9D8F-01215ACEA0E3" referredColumn="C305A1E7-9060-073B-BAAC-B8EF2C99E5E5"/>
+</associations>
+</Column>
+<Column name="Cliente_id_cliente" id="B98C8B7B-85DC-07DA-F6C9-72D42696605E">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>0081A3D0-EC1C-A2A9-A56A-E97506D7016B</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="012D5E7A-5268-6F73-02C4-57B5AF57161E" referredColumn="DDAB0004-6FA9-4C44-9D0A-1B6D16AF2A30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E96EB50F-9C16-8B87-CF09-7C0827C5424A" name="Stand_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>4B9103C8-9B33-F419-05DC-84A84CC7066A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BE09B3F-2BC0-FC21-ED89-005F04205238"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="859DC3C4-9663-A8B7-98FF-58FF9BB23998" name="Stand__IDX">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B98C8B7B-85DC-07DA-F6C9-72D42696605E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4787739-A500-17BA-99D8-280A3378FB07" name="Stand_Cliente_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>49DDE6A0-A3FF-FFB6-85BE-AA93358574E1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B98C8B7B-85DC-07DA-F6C9-72D42696605E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1E3323D4-DE73-C561-DA12-A62AEA119CD8" name="Stand_Evento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>8CAFFD36-D8A4-AD1C-F2F3-C1B601FCB23E</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F48DEC4D-4646-C48D-5038-7E98A5F89FE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

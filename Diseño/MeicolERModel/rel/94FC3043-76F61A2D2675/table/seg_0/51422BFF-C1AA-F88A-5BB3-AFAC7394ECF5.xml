@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="51422BFF-C1AA-F88A-5BB3-AFAC7394ECF5" name="Cargo">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>C5999E76-F6E9-B879-C782-FDEFC0EC46B9</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="B9927445-DAA1-E97C-1838-2D320ED2DDD1">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>302D403D-EC13-B93A-D9D5-5067A1BD3124</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_cargo" id="D9B4F175-B4A1-E1D3-6A51-771A6B6EE30F">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>65DD224D-CFFF-AAD6-6D95-52F5BC7709C0</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion_cargo" id="041CBC4A-1DF2-3205-1398-F8C29C174F18">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>2A8181BC-D2FE-F1D3-EFFB-7A2F3264C0F1</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66038D1A-61BE-2D33-325D-90871D7A41EB" name="Cargo_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>07EE75D1-6A6D-BA2B-D6CE-376A0CCEB355</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9927445-DAA1-E97C-1838-2D320ED2DDD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

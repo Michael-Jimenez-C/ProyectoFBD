@@ -1,10 +1,9 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.logical.LogicalDesign>
    <object objectType="main_view" objectID="9EE2DAB6-B02B-0D40-C96E-F3D937E17330" name="Logical" visible="true"/>
-   <object objectType="sub_view" objectID="9F6113D9-0506-1C39-2712-7EA9DA21327E" name="Logical - SubView_1" visible="false"/>
-   <object objectType="sub_view" objectID="85060A1E-176E-BD8F-0170-71CA7AD3010F" name="Logical - SubView_2" visible="false"/>
-   <object objectType="sub_view" objectID="A4F0EEF0-3152-C40C-A25B-CBC64B9502CD" name="Logical - SubView_3" visible="false"/>
-   <object objectType="sub_view" objectID="8DCC7252-9076-A7CB-688C-545D9D5586D9" name="Logical - SubView_4" visible="false"/>
-   <object objectType="sub_view" objectID="20F171DA-DB01-CAE3-3E08-94EA48545B9C" name="Logical - SubView_5" visible="false"/>
-   <object objectType="sub_view" objectID="391799F3-7386-18CA-0C4C-9AC899FA6900" name="Logical - SubView_6" visible="false"/>
+   <object objectType="sub_view" objectID="85060A1E-176E-BD8F-0170-71CA7AD3010F" name="Finanzas" visible="false"/>
+   <object objectType="sub_view" objectID="A4F0EEF0-3152-C40C-A25B-CBC64B9502CD" name="Gerente de direccion" visible="false"/>
+   <object objectType="sub_view" objectID="8DCC7252-9076-A7CB-688C-545D9D5586D9" name="Gerente de ventas" visible="false"/>
+   <object objectType="sub_view" objectID="20F171DA-DB01-CAE3-3E08-94EA48545B9C" name="Marketing" visible="false"/>
+   <object objectType="sub_view" objectID="391799F3-7386-18CA-0C4C-9AC899FA6900" name="Personal" visible="false"/>
 </oracle.dbtools.crest.model.design.logical.LogicalDesign>

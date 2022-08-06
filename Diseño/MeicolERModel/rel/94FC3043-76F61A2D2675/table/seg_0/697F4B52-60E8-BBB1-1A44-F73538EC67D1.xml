@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="697F4B52-60E8-BBB1-1A44-F73538EC67D1" name="Asiste">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cliente_id_cliente" id="0AF10515-B8C2-54B1-62DA-429BB6CA1CC6">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A65BADFD-5EF1-CA42-EEE0-D7D2D6F9E334" referredColumn="DDAB0004-6FA9-4C44-9D0A-1B6D16AF2A30"/>
+</associations>
+</Column>
+<Column name="Evento_id_evento" id="DD661A90-3BA1-2EB4-25F5-60FB1DDD4176">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="69ED58E2-DA01-E5E7-6B2B-6B6C848303DB" referredColumn="C305A1E7-9060-073B-BAAC-B8EF2C99E5E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="946FF102-B102-5BDD-AEC9-5151C23E476B" name="Asiste_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF10515-B8C2-54B1-62DA-429BB6CA1CC6"/>
+<colUsage columnID="DD661A90-3BA1-2EB4-25F5-60FB1DDD4176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D39E310-37FC-5DCE-BAD2-7996FFC4AE80" name="Asiste_Cliente_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>54AC75AC-C098-3A2B-20C4-6FE1FDDEE600</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AF10515-B8C2-54B1-62DA-429BB6CA1CC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30B6B3C6-D5A3-96CC-EA1B-AE5688CD55FE" name="Asiste_Evento_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>54AC75AC-C098-3A2B-20C4-6FE1FDDEE600</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD661A90-3BA1-2EB4-25F5-60FB1DDD4176"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

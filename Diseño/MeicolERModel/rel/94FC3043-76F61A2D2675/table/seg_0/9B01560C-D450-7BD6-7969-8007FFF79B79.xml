@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B01560C-D450-7BD6-7969-8007FFF79B79" name="Equipo_Estetica">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>61D90B07-5CEC-9D2A-44B3-2CA3D4911825</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="504E632D-7063-B25C-EC0D-F11A5233E4E3">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>25BC5667-7C42-56AF-84D3-286E11282899</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE89075B-5C84-B1BF-30DB-EF1D465662FF" referredColumn="4333DDD0-FA98-1B2B-6A38-7A4D277ED946"/>
+</associations>
+</Column>
+<Column name="referencia_equipo" id="79375D00-8D47-6674-7E91-D0B5942A55DF">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>4A81F156-EB07-5792-DB47-E366E5AE7C1A</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0B7AC90-810F-3709-B280-C15A1491340E" name="Equipo_Estetica_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>05B2A7E4-BCF9-13AC-43AE-2C12119FA701</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="504E632D-7063-B25C-EC0D-F11A5233E4E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48BD26F3-A30D-40E8-E8B2-8ECDB73AFFE3" name="Equipo_Estetica_Producto_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>93802C72-4C05-4EEA-0B62-6AC68E02F5D4</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="504E632D-7063-B25C-EC0D-F11A5233E4E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

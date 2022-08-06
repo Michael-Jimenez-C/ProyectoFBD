@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Contiene" directorySegmentName="seg_0" id="4CF329EC-23D7-3BBC-5E1D-FCF1F6153F8F">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Estan" directorySegmentName="seg_0" id="4CF329EC-23D7-3BBC-5E1D-FCF1F6153F8F">
 <createdBy>Andre</createdBy>
 <createdTime>2022-07-31 22:35:35 UTC</createdTime>
 <ownerDesignName>MeicolERModel</ownerDesignName>
@@ -10,7 +10,7 @@
 <identifying>false</identifying>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>1</sourceCardinality>
+<sourceCardinality>*</sourceCardinality>
 <sourceEntity>5DA1F33C-D154-D421-9F95-57E6D66D9BBC</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
 <targetEntity>8A54A9AC-5C3F-83FB-124E-2F1A65D7A403</targetEntity>

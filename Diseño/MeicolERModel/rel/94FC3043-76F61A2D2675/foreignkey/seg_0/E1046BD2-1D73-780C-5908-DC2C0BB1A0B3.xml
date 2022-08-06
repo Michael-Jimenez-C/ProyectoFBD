@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E1046BD2-1D73-780C-5908-DC2C0BB1A0B3" containerWithKeyObject="BC711DAA-7A4C-EACA-E9B0-CE7540475A29" localFKIndex="48F9B35B-0D4B-4522-7E17-7BD09880B254" name="Mantiene_Equipo_Estetica_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2022-08-06 21:07:12 UTC</createdTime>
+<generatorID>91499BDB-6547-62C7-5392-747687FD10E5</generatorID>
+<ownerDesignName>MeicolERModel</ownerDesignName>
+<referredTableLongName>Equipo_Estetica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B01560C-D450-7BD6-7969-8007FFF79B79</referredTableID>
+<keyObject>E0B7AC90-810F-3709-B280-C15A1491340E</keyObject>
+<referredKeyID>E0B7AC90-810F-3709-B280-C15A1491340E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_producto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
