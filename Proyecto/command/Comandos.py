@@ -45,11 +45,9 @@ class Consulta(CMD):
         '''
         conexion=Conexion.getConexion()
         cur=conexion.cursor()
-        try:
-            cur.execute("SELECT "+str(params["columnas"]).replace("(","").replace(")","").replace("'","")+" FROM "+params["tabla"])
-            return cur.fetchall()
-        except:
-            return None
+        print("SELECT "+str(params["columnas"]).replace("(","").replace(")","").replace("'","")+" FROM "+params["tabla"])
+        cur.execute("SELECT "+str(params["columnas"]).replace("(","").replace(")","").replace("'","")+" FROM "+params["tabla"])
+        return cur.fetchall()
 
 class Insertar(CMD):
     def execute(self,params:dict):

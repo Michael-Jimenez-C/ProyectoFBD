@@ -4,7 +4,7 @@ class Conexion:
     __conexion=None
     def getConexion():
         if Conexion.__conexion==None:
-            file=open("./Servidor/command/config.json","r")
+            file=open("./command/config.json","r")
             data=json.load(file)
             Conexion.__conexion=MySQLdb.connect(host=data["host"],
                                                 user=data["user"],
