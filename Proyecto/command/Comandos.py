@@ -1,7 +1,6 @@
 from __future__ import annotations
 from abc import ABC, abstractmethod
-import cmd
-from Conexion import Conexion
+from command.Conexion import Conexion
 
 class CMD(ABC):
     @abstractmethod
@@ -74,7 +73,7 @@ class Insertar(CMD):
         except:
             return False
 
-class Borrar(cmd):
+class Borrar(CMD):
     def execute(self,params:dict):
         '''
             params debe tener
@@ -95,7 +94,7 @@ class Borrar(cmd):
         except:
             return False
 
-class Actualizar(cmd):
+class Actualizar(CMD):
     def execute(self,params:dict):
         '''
             params debe tener
