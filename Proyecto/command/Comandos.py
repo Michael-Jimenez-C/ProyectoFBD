@@ -7,7 +7,7 @@ class CMD(ABC):
     def execute(self,params:dict)->None:
         pass        
 
-class genericCMD(CMD):
+class GenericCMD(CMD):
     def execute(self,params:dict):
         '''
             params debe tener
@@ -45,9 +45,11 @@ class Consulta(CMD):
         '''
         conexion=Conexion.getConexion()
         cur=conexion.cursor()
-        print("SELECT "+str(params["columnas"]).replace("(","").replace(")","").replace("'","")+" FROM "+params["tabla"])
-        cur.execute("SELECT "+str(params["columnas"]).replace("(","").replace(")","").replace("'","")+" FROM "+params["tabla"])
-        return cur.fetchall()
+        try:
+            cur.execute("SELECT "+str(params["columnas"]).replace("(","").replace(")","").replace("'","")+" FROM "+params["tabla"])
+            return cur.fetchall()
+        except:
+            return None
 
 class Insertar(CMD):
     def execute(self,params:dict):

@@ -7,7 +7,7 @@ class GUI:
     def __init__(self, master):
         self.master=master
         self.bg="#ADADAD"
-        self.master.geometry("700x600")
+        self.master.geometry("900x500")
         self.master.title("Meicol-Finanzas")
         self.master.resizable(False,False)
         self.master.config(bg=self.bg)
@@ -31,7 +31,7 @@ class GUI:
         self.fecha2.place(x=140,y=120)
 
         Label(self.master,text="consulta",bg=self.bg,fg="#FFF").place(x=40,y=160)
-        self.consult=ttk.Combobox(self.master,values=["Empleados","Contratados ext","Costos","Gastos"],state="readonly")
+        self.consult=ttk.Combobox(self.master,values=["Empleados","Contratados ext","Facturas"],state="readonly")
         self.consult.current(newindex=0)
         self.consult.place(x=40,y=180,width=170)
 
@@ -39,21 +39,26 @@ class GUI:
         Button(self.master,text="Aceptar",command=lambda: self.__aceptar()).place(x=40,y=280,width=170)
         #--------------------tabla-------------------------------
         tcontainer=Frame(self.master)
-        tcontainer.place(x=250,y=40,width=400,height=400)
-        tscontainer=Frame(tcontainer)
-        tscontainer.pack(side="left",fill="both",expand=True)
-        self.tabla=ttk.Treeview(tscontainer)
+        tcontainer.place(x=250,y=40,width=600,height=400)
+        self.tabla=ttk.Treeview(tcontainer)
         self.tabla.pack(side="top",fill="both",expand=True)
-        scv=ttk.Scrollbar(tcontainer)
-        scv.pack(side="right",fill="y")
-        sch=ttk.Scrollbar(tscontainer,orient="horizontal")
+        scv=ttk.Scrollbar(self.master)
+        scv.place(x=850,y=40,height=400)
+        sch=ttk.Scrollbar(tcontainer,orient="horizontal")
         sch.pack(side="bottom",fill="x")
         self.tabla.config(yscrollcommand=scv.set,xscrollcommand=sch.set)
         scv.config(command=self.tabla.yview)
         sch.config(command=self.tabla.xview)
 
     def __exportar(self):
-        pass
+        file=open("./tabla.csv","w")
+        
+        for i in self.tabla.get_children(item=""):
+            s=""
+            for j in i:
+                s+=j+";"
+            file.write(s+"\n")
+        file.close()
     def __verificar(self):
         pass
     def __subir(self):
@@ -64,19 +69,29 @@ class GUI:
         for i in self.tabla.get_children(item=""):
             self.tabla.delete(i)
 
-        cons=Consulta()
+        cons=GenericCMD()
+               
         if(self.consult.get()=="Empleados"):
-            s=cons.execute(params={"tabla":"empleado","columnas":("id_empleado","nombre_empleado","tipo_documento_empleado","Contrato_id_contrato")})
-            print(s)
-            id,nombre,DI,IC=s
+            headers="id_empleado,id_contrato,id_departamento,nombre_empleado,tipo_documento_empleado,fecha_inicio_contrato,tipo_contrato,salario_contrato, nombre_departamento"
+            s=cons.execute(params={"comando":"SELECT "+headers+" FROM contrato NATURAL JOIN empleado,departamento WHERE Contrato_id_contrato=id_contrato AND departamento_id_departamento=id_departamento","commit":True})
+        elif(self.consult.get()=="Contratados ext"):
+            headers="id_empleado,id_contrato,nombre_empleado,tipo_documento_empleado,fecha_inicio_contrato,salario_contrato"
+            s=cons.execute(params={"comando":"SELECT "+headers+" FROM contrato NATURAL JOIN empleado WHERE Contrato_id_contrato=id_contrato AND tipo_contrato='temporal'","commit":True})
+        else:
+            headers="id_transaccion,fecha_transaccion,tipo_transaccion,valor_total_transaccion,nombre_empleado"
+            s=cons.execute(params={"comando":"SELECT "+headers+" FROM transaccion NATURAL JOIN empleado WHERE Empleado_id_empleado=id_empleado","commit":True})
 
-        headers=["ID","Nombre"]#,"Documento","Contrato"]
-        self.tabla.config(columns=headers[0:])
-        for i in headers:
+        headers=headers.split(",")
+        self.tabla.config(columns=headers[1:])
+
+        self.tabla.heading("#0",text=headers[0],anchor=CENTER)
+        self.tabla.column("#0",width=80,anchor=CENTER)
+        for i in headers[1:]:
+            self.tabla.heading(i,text=i,anchor=CENTER)
             self.tabla.column(i,width=80,anchor=CENTER)
-            self.tabla.heading(i,text=i if i!="#0" else headers[0],anchor=CENTER)
-        for i in range(len(id)):
-            self.tabla.insert("",END,text=id[i],values=[nombre[i],DI[i],IC[i]])
+        for i in range(len(s)):
+            self.tabla.insert("",END,text=s[i][0],values=s[i][1:])
+
 root=Tk()
 gui=GUI(root)
 root.mainloop()
